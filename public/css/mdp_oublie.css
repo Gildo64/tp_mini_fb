@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    
+}
+.formulaire{
+    display: block;
+    margin: auto;
+    width: 450px;
+    background-color: #f8f4f4;
+    padding: 50px;
+    margin-top: 40px;
+    border-radius: 10px;
+    
+}
+.champ_1 input{
+    width: 100%;
+    margin: 2px 0 20px 0;
+    height: 35px;
+    padding-left: 10px;
+    border: #ddd 2px solid; 
+    border-radius: 6px;
+}
+.button{text-align: center;
+padding-top: 20px;}
+.button button{
+    background-color: rgb(38, 38, 212);
+    color: #fff;
+    padding: 10px 35px ;
+    border-radius: 6px;
+    border: none;
+    
+}
+input:focus{
+    outline: none;
+}
+
+.buton button{
+    background-color: #8b97d7;
+    padding: 5px 10px;
+    border-radius: 30px;
+    border: none;
+
+}
